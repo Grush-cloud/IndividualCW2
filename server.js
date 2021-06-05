@@ -21,6 +21,12 @@ MongoClient.connect('mongodb+srv://George:Nelsonattwo@cluster0.dtiun.mongodb.net
     db = client.db('Webstore')
 })
 
+//middleware to handle images 
+app.get('/collection/lessons/img', (req, res, next) => {
+    var imagePath = path.resolve(__dirname, "img"); 
+    app.use("/img", express.static(imagePath));
+})
+
 
 // dispaly a message for root path to show that API is working
 app.get('/', (req, res, next) => {
