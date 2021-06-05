@@ -1,110 +1,102 @@
-let lessons = [
+lessons=[
     {
-        "id": 01,
-        "subject": 'Accounting',
-        "location": "Mauritius",
-        "price": 300,
-        "image": "img/accounting.jpg",
-        "availableInventory": 5,
-        "rating": 3,
-    },
-    {
-        "id": 02,
-        "subject": 'Chemistry',
-        "location": "Dubai",
-        "price": 250,
-        "image": "img/chemistry.jpg",
-        "availableInventory":5,
-        "rating": 4
-    },
-    {
-        "id": 03,
-        "subject": 'Biology',
-        "location": "Hendon",
-        "price": 200,
-        "image": "img/biology.jpg",
-        "availableInventory":5,
-        "rating": 5
-    },
-    {
-        "id": 04,
-        "subject": 'Government',
-        "location": "Mauritius",
-        "price": 150,
-        "image": "img/government.jpg",
-        "availableInventory": 5,
-        "rating": 3,
-    },
-    {
-        "id": 05,
-        "subject": 'English',
-        "location": "Dubai",
-        "price": 200,
-        "image": "img/english.jpg",
-        "availableInventory":5,
-        "rating": 4
-    },
-    {
-        "id": 06,
-        "subject": 'Law',
-        "location": "Hendon",
-        "price": 350,
-        "image": "img/law.jpg",
-        "availableInventory":5,
-        "rating": 5
-    },
-    {
-        "id": 07,
-        "subject": 'History',
-        "location": "Mauritius",
-        "price": 170,
-        "image": "img/history.jpg",
-        "availableInventory": 5,
-        "rating": 3,
-    },
-    {
-        "id": 08,
-        "subject": 'Science',
-        "location": "Dubai",
-        "price": 240,
-        "image": "img/science.jpg",
-        "availableInventory":5,
-        "rating": 4
-    },
-    {
-        "id": 09,
-        "subject": 'Math',
-        "location": "Hendon",
-        "price": 190,
-        "image": "img/math.jpg",
-        "availableInventory":5,
-        "rating": 5
-    },
-    {
-        "id": 010,
-        "subject": 'Mechanics',
-        "location": "Mauritius",
-        "price": 200,
-        "image": "img/demo-img.svg",
-        "availableInventory": 5,
-        "rating": 3,
-    },
-    {
-        "id": 011,
-        "subject": 'Auto repair',
-        "location": "Dubai",
-        "price": 300,
-        "image": "img/demo-img.svg",
-        "availableInventory":5,
-        "rating": 4
-    },
-    {
-        "id": 012,
-        "subject": 'Civil Engineering',
-        "location": "Hendon",
-        "price": 260,
-        "image": "img/demo-img.svg",
-        "availableInventory":5,
-        "rating": 5
-    }
+    id:1001,
+    subject: "Art",
+    location: "London",
+    price: 500,
+    priceicon: '$',
+    spaces:5,
+    image:"images/art.jpg",
+    
+},
+{
+    id:1002,
+    subject: "Biology",
+    location: "United States",
+    price: 200,
+    priceicon: '$',
+    spaces:5,
+    image:"images/biology.jpg",
+    
+},
+{
+    id:1003,
+    subject: "Chemistry",
+    location: "London",
+    price: 1000,
+    priceicon: '$',
+    spaces:5,
+    image:"images/chem.jpg",
+    
+},
+{
+    id:1004,
+    subject: "English",
+    location: "United Kingdom",
+    price: 2200,
+    priceicon: '$',
+    spaces:5,
+    image:"images/english.jpg",
+    
+},
+{
+    id:1005,
+    subject: "French",
+    location: "Paris",
+    price: 2000,
+    priceicon: '$',
+    spaces:5,
+    image:"images/french.jpg",
+    
+},
+{
+    id:1006,
+    subject: "Geography",
+    location: "London",
+    price: 2030,
+    priceicon: '$',
+    spaces:5,
+    image:"images/geography.jpg",
+    
+},
+{
+    id:1007,
+    subject: "History",
+    location: "Ghana",
+    price: 1000,
+    priceicon: '$',
+    spaces:5,
+    image:"images/history.jpg",
+    
+},
+{
+    id:1008,
+    subject: "Maths",
+    location: "London",
+    price: 2400,
+    priceicon: '$',
+    spaces:5,
+    image:"images/maths.jpg",
+    
+},
+{
+    id:1009,
+    subject: "Music",
+    location: "Paris",
+    price: 234,
+    priceicon: '$',
+    spaces:5,
+    image:"images/music.jpg",
+    
+},
+{
+    id:1010,
+    subject: "Physics",
+    location: "London",
+    price: 1400,
+    priceicon: '$',
+    spaces:5,
+    image:"images/physics.jpg",
+    
+},
 ]
